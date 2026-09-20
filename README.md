@@ -51,14 +51,6 @@ npm run check
 npm run pack:check
 ```
 
-### 市场提交
-
-1. 把本目录发布为公开 GitHub 仓库；
-2. 仓库创建满 1 天，并添加 `dsh-plugin` topic；
-3. 可选：发布到 npm，或在 GitHub Release 附加预构建 `.tgz`；
-4. 将 `submission/RrcoVer0__dsh-webnovel-writer.yml` 提交到市场仓库；
-5. 向市场仓库提交这一个 YAML 文件，不要手改市场 README。
-
 ## English
 
 `dsh-webnovel-writer` adds Chinese web-fiction workflows to agents in an existing DeepSeek Harness profile. It registers two runtime skills plus a short routing prompt; it does not install or replace an agent preset.
